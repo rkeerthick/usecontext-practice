@@ -12,7 +12,7 @@ function App() {
       <Header />
       <Shop>
         {DUMMY_PRODUCTS.map((product) => (
-          <li key={product.id}>
+          <li key={product.id} >
             <Product {...product} />
           </li>
         ))}
